@@ -1,4 +1,4 @@
-from gamebuino_meta import begin, waitForUpdate, display, color, buttons, collide
+from gamebuino_meta import waitForUpdate, display, color, buttons, collide
 
 # Ball initial settings
 ball_size = 3
