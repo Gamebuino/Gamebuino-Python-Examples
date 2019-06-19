@@ -1,3 +1,7 @@
+"""
+Single player pong played with UP and DOWN buttons
+"""
+
 from gamebuino_meta import waitForUpdate, display, color, buttons, collide
 
 # Ball initial settings
