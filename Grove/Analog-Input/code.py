@@ -1,9 +1,15 @@
 """
-Single player pong game controlled by the analog input A1
+Reads analog input from A1 and shows it on screen
+
+Works with the modules :
+- Potentiometer
+- Joystick
+- Light Sensor
+- Loudness Sensor
+- Temperature Sensor
 """
 
-from gamebuino_meta import waitForUpdate, display, buttons
-import random
+from gamebuino_meta import waitForUpdate, display
 import board
 from analogio import AnalogIn
 
